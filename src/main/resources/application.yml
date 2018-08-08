@@ -1,0 +1,19 @@
+application:
+  version: "%APP_VERSION_TOKEN%"
+  game:
+    totalAttempts: 9
+
+spring:
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:5432/hangman"
+    username: "postgres"
+    password: ""
+  jpa:
+    database-platform: "org.hibernate.dialect.PostgreSQL94Dialect"
+    hibernate:
+      ddl-auto: "update"
+    show-sql: "false"
+    properties:
+      hibernate:
+        default_schema: "hangman_core"

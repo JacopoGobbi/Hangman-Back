@@ -1,0 +1,14 @@
+dermatology
+informatics
+programmer
+developer
+lambda
+computer
+nullpointerexception
+optional
+spring
+hibernate
+gradle
+nexmo
+scala
+java
